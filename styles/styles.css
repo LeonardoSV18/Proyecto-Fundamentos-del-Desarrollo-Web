@@ -3,9 +3,15 @@
     margin: 10px;
 
     padding: 0;
+    background-color: rgb(241, 241, 191);
 
 }
 
+
+p { 
+
+    text-align: left;
+}
 
 
 nav ul {
@@ -26,19 +32,78 @@ nav ul li a:hover{
 
 nav ul li{ 
     display: inline-block ;
-    background-color: black;
+    background-color: rgb(241, 241, 191);
     width: 60px;
     padding: 8px;
     height: 20px;
     margin: 0 20px;
+    box-sizing: border-box;
 }
 
 
-footer {
+footer > p {
 
     text-align: center;
 }
 
 main { text-align: center;}
 
-h1 { text-align: center;}
+h1 { text-align: center;
+font-family: Arial, Helvetica, sans-serif;}
+
+h2 { text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+    
+
+.Boton{
+    color: blue;
+}
+
+#AreadeTexto {
+
+        background-color: white;
+
+}
+
+.importante {
+            background-color: rgb(240, 182, 182);
+            color: rgb(150, 0, 0);
+            border: 1px solid #d00;
+
+}
+
+.historia {
+    background-color: rgb(350 , 82, 200);
+    color: rgb(100, 0, 0);
+    border: 5px solid #d05;
+}
+
+.beneficios {
+    background-color: rgb(550 , 292, 300);
+    color: rgb(500, 0, 0);
+    border: 5px solid #d05;
+    box-sizing: border-box;
+    display: inline-block ;
+    width: 20%;
+}
+
+.caja {
+    border-radius: 10px;
+    padding: 15px;
+  
+}
+
+.team {
+    background-color: rgb(255 , 235, 189);
+    color: rgb(71, 117, 16);
+    border: 3px solid rgb(9, 106, 35);
+    border-top: 10px solid;
+}
+
+section > p {
+
+    color: blue;
+}
