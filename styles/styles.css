@@ -72,6 +72,20 @@ section>p {
 
 }
 
+.contenedor {
+    background-color: blue;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.inicio {
+    background-color: rgb(850, 120, 350);
+    color: rgb(550, 0, 0);
+    border: 3px solid #a05;  
+    flex-wrap : wrap-reverse
+}
+
 .beneficios {
     background-color: rgb(550, 292, 300);
     color: rgb(500, 0, 0);
@@ -109,4 +123,42 @@ section>p {
 footer>p {
 
     text-align: center;
+}
+
+.fixed-menu {
+
+    position: fixed;
+  
+    top: 0; /* Se coloca en la parte superior */
+  
+    right: 0;
+  
+    width: 20%; 
+  
+    background-color: #333;
+  
+    color: white;
+  
+    text-align: center;
+  
+    padding: 10px 0;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto flotante */
+  
+  }
+
+.contenedor2 {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.morado {
+    background-color: mediumpurple;
+    height: 200px;
+}
+
+.align-stretch{
+    align-items: strech;
 }
