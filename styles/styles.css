@@ -62,7 +62,6 @@ section>p {
 .caja {
     border-radius: 10px;
     padding: 15px;
-
 }
 
 .importante {
@@ -75,7 +74,7 @@ section>p {
 .contenedor {
     background-color: blue;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center;
     
 }
 
@@ -83,14 +82,12 @@ section>p {
     background-color: rgb(850, 120, 350);
     color: rgb(550, 0, 0);
     border: 3px solid #a05;  
-    flex-wrap : wrap-reverse
 }
 
 .beneficios {
     background-color: rgb(550, 292, 300);
     color: rgb(500, 0, 0);
     border: 5px solid #d05;
-    box-sizing: border-box;
     display: inline-block;
     width: 20%;
 }
@@ -112,6 +109,8 @@ section>p {
 #AreadeTexto {
 
     background-color: white;
+    width: 300px;
+    height: 150px
 
 }
 
@@ -129,7 +128,7 @@ footer>p {
 
     position: fixed;
   
-    top: 0; /* Se coloca en la parte superior */
+    top: 0;
   
     right: 0;
   
@@ -143,7 +142,7 @@ footer>p {
   
     padding: 10px 0;
   
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto flotante */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   
   }
 
@@ -162,3 +161,17 @@ footer>p {
 .align-stretch{
     align-items: strech;
 }
+
+@media screen and (max-width: 550px) {
+    .fixed-menu {
+        background-color: red;
+    
+    }
+    .imac {
+        width: 250px;
+        height: 300px;
+    }
+    
+    
+} 
+
