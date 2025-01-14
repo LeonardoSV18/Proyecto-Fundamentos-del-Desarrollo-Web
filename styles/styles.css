@@ -4,6 +4,67 @@
     background-color: rgb(241, 241, 191);
 }
 
+
+.portfolio-container {
+
+    display: grid;
+  
+    grid-template-areas:
+  
+      "header header"
+  
+      "main-content sidebar"
+  
+      "footer footer";
+  
+    grid-template-columns: 2fr 1fr;
+  
+    gap: 20px;
+  
+  }
+  
+  .header {
+  
+    grid-area: header;
+    
+    padding: 20px;
+  
+    text-align: center;
+  
+  }
+  
+  .main-content {
+  
+    grid-area: main-content;
+    
+    padding: 20px;
+  
+    text-align: center;
+  
+  }
+  
+  .sidebar {
+  
+    grid-area: sidebar;
+  
+    background-color: #90ee90;  /* Color verde claro para la barra lateral */
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+  }
+  
+  .footer {
+  
+    grid-area: footer;
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+  }
+
 h1 {
     text-align: center;
     font-family: "Borel", serif;
